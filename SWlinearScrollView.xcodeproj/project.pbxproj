@@ -15,8 +15,6 @@
 		5B4A433F20D3A0DD008FC25E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A433E20D3A0DD008FC25E /* main.m */; };
 		5B4A434920D3A0DD008FC25E /* SWlinearScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A434820D3A0DD008FC25E /* SWlinearScrollViewTests.m */; };
 		5B4A435420D3A0DD008FC25E /* SWlinearScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A435320D3A0DD008FC25E /* SWlinearScrollViewUITests.m */; };
-		5B4A436720D3A645008FC25E /* SWScrollModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A436620D3A645008FC25E /* SWScrollModel.m */; };
-		5B4A436A20D3A656008FC25E /* SWCarouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A436920D3A656008FC25E /* SWCarouseView.m */; };
 		5B4A442020D3A774008FC25E /* UIView+ATExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A441F20D3A774008FC25E /* UIView+ATExt.m */; };
 /* End PBXBuildFile section */
 
@@ -54,10 +52,6 @@
 		5B4A434F20D3A0DD008FC25E /* SWlinearScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWlinearScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4A435320D3A0DD008FC25E /* SWlinearScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWlinearScrollViewUITests.m; sourceTree = "<group>"; };
 		5B4A435520D3A0DD008FC25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B4A436520D3A645008FC25E /* SWScrollModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWScrollModel.h; sourceTree = "<group>"; };
-		5B4A436620D3A645008FC25E /* SWScrollModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWScrollModel.m; sourceTree = "<group>"; };
-		5B4A436820D3A656008FC25E /* SWCarouseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWCarouseView.h; sourceTree = "<group>"; };
-		5B4A436920D3A656008FC25E /* SWCarouseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWCarouseView.m; sourceTree = "<group>"; };
 		5B4A441E20D3A774008FC25E /* UIView+ATExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ATExt.h"; sourceTree = "<group>"; };
 		5B4A441F20D3A774008FC25E /* UIView+ATExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ATExt.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,7 +106,6 @@
 			children = (
 				5B4A441E20D3A774008FC25E /* UIView+ATExt.h */,
 				5B4A441F20D3A774008FC25E /* UIView+ATExt.m */,
-				5B4A436120D3A61E008FC25E /* SWScrollView */,
 				5B4A432F20D3A0DC008FC25E /* AppDelegate.h */,
 				5B4A433020D3A0DC008FC25E /* AppDelegate.m */,
 				5B4A433220D3A0DC008FC25E /* ViewController.h */,
@@ -142,17 +135,6 @@
 				5B4A435520D3A0DD008FC25E /* Info.plist */,
 			);
 			path = SWlinearScrollViewUITests;
-			sourceTree = "<group>";
-		};
-		5B4A436120D3A61E008FC25E /* SWScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				5B4A436520D3A645008FC25E /* SWScrollModel.h */,
-				5B4A436620D3A645008FC25E /* SWScrollModel.m */,
-				5B4A436820D3A656008FC25E /* SWCarouseView.h */,
-				5B4A436920D3A656008FC25E /* SWCarouseView.m */,
-			);
-			path = SWScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,10 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B4A436720D3A645008FC25E /* SWScrollModel.m in Sources */,
 				5B4A433420D3A0DC008FC25E /* ViewController.m in Sources */,
 				5B4A433F20D3A0DD008FC25E /* main.m in Sources */,
-				5B4A436A20D3A656008FC25E /* SWCarouseView.m in Sources */,
 				5B4A433120D3A0DC008FC25E /* AppDelegate.m in Sources */,
 				5B4A442020D3A774008FC25E /* UIView+ATExt.m in Sources */,
 			);

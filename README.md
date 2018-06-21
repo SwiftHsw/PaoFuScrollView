@@ -6,7 +6,7 @@
 
 使用的时候,只需要把项目中的文件拖进您的项目,初始化传入一个图片模型的数组即可,具体可参照Demo,写的不好,望指教!!
     
-
+![效果图](https://upload-images.jianshu.io/upload_images/1911628-489eb4e3653ef6ed.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/210)
 
 # 主要代码
 
